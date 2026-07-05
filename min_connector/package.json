@@ -1,0 +1,14 @@
+{
+  "name": "min-connector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny Interledger connector learning lab using real ILP packet encoding.",
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "stage1": "node src/stage1-packet-bench.js"
+  },
+  "dependencies": {
+    "ilp-packet": "3.1.4-alpha.2"
+  }
+}
